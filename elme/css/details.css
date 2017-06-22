@@ -1,0 +1,228 @@
+header {
+  width: 100%;
+  height: 5.82609rem;
+  background: rgba(0, 0, 0, 0.1) url("../image/avatarcopy@2x.png") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  padding-top: 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.shop-logo {
+  float: left; }
+
+.shop-logo > img {
+  width: 2.82609rem;
+  height: 2.82609rem;
+  border-radius: 2px;
+  margin-left: 1rem; }
+
+.shop-details {
+  float: left;
+  margin-left: 0.8rem;
+  height: 2.78261rem; }
+
+.shop-name {
+  overflow: hidden; }
+
+.shop-name > div:first-child {
+  width: 1.30435rem;
+  height: 0.78261rem;
+  background: red;
+  border-radius: 0.2rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.47826rem;
+  color: white;
+  font-weight: 700;
+  display: inline-block; }
+
+.shop-name > p {
+  display: inline-block;
+  font-size: 0.69565rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 700; }
+
+.shop-type {
+  font-size: 0.47826rem;
+  line-height: 0.47826rem;
+  margin-top: 0.43478rem; }
+
+.shop-price {
+  margin-top: 0.43478rem;
+  font-size: 0.3913rem; }
+
+.shop-price > img {
+  width: 0.52174rem;
+  height: 0.52174rem; }
+
+.shop-num {
+  width: 1.86957rem;
+  height: 1.08696rem;
+  border-radius: 20%/50%;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  position: absolute;
+  right: 0.56522rem;
+  top: 2.91304rem;
+  line-height: 1.08696rem;
+  text-align: center; }
+
+.shop-footer {
+  height: 1.21739rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 0.21739rem;
+  line-height: 1.21739rem;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  overflow: hidden; }
+
+.shop-footer > .shop-notice {
+  height: 0.69565rem;
+  width: 1.04348rem;
+  background: white;
+  color: black;
+  margin-top: 0.30435rem;
+  float: left;
+  line-height: 0.69565rem;
+  margin-right: 0.17391rem; }
+
+.nav {
+  height: 1.73913rem;
+  width: 100%;
+  border-bottom: 2px solid gray; }
+
+.nav > ul {
+  height: 100%; }
+
+.nav > ul > li {
+  float: left;
+  display: flex;
+  flex: 1;
+  width: 33%;
+  text-align: center;
+  height: 100%;
+  line-height: 100%; }
+
+.nav > ul > li > a {
+  display: block;
+  height: 100%;
+  line-height: 1.73913rem;
+  margin: 0 auto;
+  font-size: 0.6087rem;
+  font-wight: 900;
+  color: black; }
+
+.db-top {
+  width: 100%;
+  height: 19.30435rem; }
+
+.menu {
+  width: 100%;
+  height: 2.34783rem;
+  background: #f3f5f7;
+  line-height: 2.3913rem;
+  text-align: center;
+  border-bottom: 1px solid gray; }
+
+.menu-bar {
+  float: left;
+  width: 20%;
+  height: 19.30435rem; }
+
+.menu-right {
+  width: 80%;
+  height: 19.30435rem;
+  float: left; }
+
+.scroll {
+  width: 110%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.menu-right li {
+  height: 4.78261rem;
+  width: 100%;
+  padding-top: 0.73913rem;
+  padding-left: 0.73913rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.menu-right img {
+  height: 2.52174rem;
+  width: 2.52174rem;
+  float: left; }
+
+.menu-right .menu-content {
+  float: left;
+  margin-left: 0.52174rem; }
+
+.menu-right .menu-content > p {
+  margin-top: 0.17391rem; }
+
+.menu-right .menu-content > p:first-child {
+  font-size: 0.6087rem;
+  color: black;
+  font-weight: 800;
+  margin-top: 0; }
+
+.menu-right .menu-content > p:last-child {
+  color: red;
+  font-weight: 800; }
+
+.menu-right .menu-content > p:last-child > span {
+  color: gray;
+  font-weight: 400; }
+
+.menu-header {
+  height: 1.17391rem;
+  width: 100%;
+  background: #f3f5f7;
+  border-left: 2px solid #ccc; }
+
+#footera {
+  height: 2.08696rem;
+  width: 100%;
+  background: black;
+  position: relative; }
+
+.circle-black {
+  width: 2.17391rem;
+  height: 2.17391rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: -0.47826rem;
+  left: 0.6087rem; }
+
+.circle-white {
+  width: 1.73913rem;
+  height: 1.73913rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #2b343c;
+  position: absolute;
+  top: 0.30435rem;
+  left: 0.21739rem; }
+
+.circle-white img {
+  width: 0.95652rem;
+  height: 0.95652rem;
+  margin-top: 0.47826rem;
+  margin-left: 0.30435rem; }

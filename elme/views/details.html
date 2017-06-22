@@ -1,0 +1,35 @@
+<div class="food-details">
+	<p><a href="" ui-sref='home' style="color: white;font-size: 30px;"><</a></p>
+	<div class="shop-details-2">
+		<img src="https://fuss10.elemecdn.com/b/6f/120529d78b3070748ea69b0d0dbd6jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
+		<div class="shop-details-right">
+			<p style="font-size: 0.5rem;height: 33%">新出炉现烤披萨</p>
+			<p style="font-size: 0.28rem; height: 33%">商家配送/39分钟送达/配送费￥15</p>
+			<p style="font-size: 0.28rem; height: 34%">公告:欢迎光临,用餐高分期请提前下单,谢谢</p>
+		</div>
+	</div>
+	<p style="font-size: 0.28rem;color:orange;margin-top: 0.2rem; ">新用户下单立减11元(不与其他活动同享)</p>
+</div>
+<div class="goods">
+	<div class="good-nav">
+		<a href="">商品</a>
+		<a href="">评价</a>
+	</div>
+			<div  class="good-left" >
+				<div style="width: 120%;height: 100%;padding-right: 0.25rem; box-sizing: border-box;overflow-x: hidden;">
+					<div ng-repeat="v in firstfood" class="big-nav">
+						{{v.name}}
+					</div>
+				</div>
+			</div>
+			<div class="good-right">
+				<div style="width: 120%;height: 100%;padding-right: 0.25rem; box-sizing: border-box;overflow-x: hidden;">
+					<div ng-repeat="v in firstfood" class="right-goods">
+						<p><span>{{v.name}}</span> <span>{{v.description}}</span></p>
+						<div class="chensiwei">
+							<img src="" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
